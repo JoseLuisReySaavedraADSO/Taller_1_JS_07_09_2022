@@ -1,0 +1,13 @@
+.myStyle{
+    border: 10px dashed blue;
+    border-radius: 25px;
+    background-color: rgb(160, 180, 249);
+    width: max-content;
+    font-size: 10mm;
+}
+.color{
+    background-color: rgb(173, 252, 255);
+}
+.letra{
+    font-size: 10mm;
+}
