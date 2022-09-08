@@ -1,13 +1,18 @@
 .myStyle{
-    border: 10px dashed blue;
+    border: 10px dashed green;
     border-radius: 25px;
-    background-color: rgb(160, 180, 249);
+    background-color: rgb(151, 246, 92);
     width: max-content;
     font-size: 10mm;
+    padding: 0mm 10mm;
 }
 .color{
-    background-color: rgb(173, 252, 255);
+    background-color: rgb(195, 253, 195);
 }
 .letra{
     font-size: 10mm;
+}
+.title{
+    color: green;
+    font-size: 20mm;
 }

@@ -1,12 +1,7 @@
 addEventListener("DOMContentLoaded", ()=>{
-    //     Escribir un programa que calcule la velocidad de un proyectil que recorre 2 Km en 5 minutos. Expresar
-    // el resultado en metros/segundo. Velocidad = espacio/tiempo.
+    // Tenemos que calcular el volumen de una esfera
 
-
-    let distancia = Number(prompt("Ingrese la distancia que recorre el proyectil", 5));
-    let tiempo = Number(prompt("En cuantos minutos los recorre? ", 10));
-    let minutos = tiempo * 60;
-    let metros = distancia * 1000;
-    let velocidad = metros / minutos
-    document.body.insertAdjacentHTML("beforeend", ` <div class="myStyle">La velocidad de la bala es de ${velocidad}</div> `);
+    let radio = Number(prompt("Ingrese el radio de la circunferencia", 5));
+    let volumen = (4/3)*Math.PI*Math.pow(radio, 3)
+    document.body.insertAdjacentHTML("beforeend", ` <div class="myStyle">El volumen de la circunferencia es ${volumen}</div> `);
 })
