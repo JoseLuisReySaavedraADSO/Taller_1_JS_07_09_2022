@@ -1,7 +1,9 @@
 addEventListener("DOMContentLoaded", ()=>{
-    // Tenemos que calcular el volumen de una esfera
+    // Calcular una ecuacion
 
-    let radio = Number(prompt("Ingrese el radio de la circunferencia", 5));
-    let volumen = (4/3)*Math.PI*Math.pow(radio, 3)
-    document.body.insertAdjacentHTML("beforeend", ` <div class="myStyle">El volumen de la circunferencia es ${volumen}</div> `);
+    let a = Number(prompt("Ingrese el valor de A", 5));
+    let b = Number(prompt("Ingrese el valor de B", 8));
+    let c = Number(prompt("Ingrese el valor de C", 3));
+    let ecuacion = (a+7*c)/(b+2-a)+2*b
+    document.body.insertAdjacentHTML("beforeend", ` <div class="myStyle">El valor de la ecuacion es ${ecuacion}</div> `);
 })

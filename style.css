@@ -1,18 +1,18 @@
 .myStyle{
-    border: 10px dashed green;
+    border: 10px dashed purple;
     border-radius: 25px;
-    background-color: rgb(151, 246, 92);
+    background-color: rgb(160, 77, 160);
     width: max-content;
     font-size: 10mm;
     padding: 0mm 10mm;
 }
 .color{
-    background-color: rgb(195, 253, 195);
+    background-color: rgb(194, 118, 194);
 }
 .letra{
     font-size: 10mm;
 }
 .title{
-    color: green;
+    color: purple;
     font-size: 20mm;
 }
